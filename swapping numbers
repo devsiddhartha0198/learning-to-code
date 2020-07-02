@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdbool.h>
+main()
+{
+int a=4 ,b=2;
+a=a-b;
+b=a*b;
+printf("after swap: a=%d , b=%d", a,b);
+}
